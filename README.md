@@ -1,8 +1,21 @@
-# React + Vite
+# Swimlane UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This project is a Swimlane User Interface (UI) that allows users to drag and drop blocks across different lanes, each representing a distinct stage or state in a process. The UI is highly configurable through a master configuration file, which controls the allowed movements of blocks between lanes based on predefined rules.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Drag-and-Drop**: Seamlessly move blocks across lanes representing various stages, with restrictions based on master configuration rules.
+- **Configurable Swimlanes**: Define allowed and restricted movements via a master configuration file.
+- **Block Preview**: Click on any block to view its detailed history, including all previous transitions.
+- **Attribute Filtering**: Filter blocks displayed in swimlanes based on specific attributes using the top-level filter mechanism.
+
+## Getting Started
+
+- **Install dependencies**: 
+  ```bash
+  npm install
+  ```
+-   **Run the app**: 
+    ```bash
+    npm run dev```
