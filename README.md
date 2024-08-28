@@ -18,4 +18,4 @@ This project is a Swimlane User Interface (UI) that allows users to drag and dro
   ```
 -   **Run the app**: 
     ```bash
-    npm run dev```
+    npm run dev
